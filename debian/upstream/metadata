@@ -1,0 +1,12 @@
+Bug-Submit: https://github.com/tidyverse/ggplot2/issues/new
+Reference:
+  Author: Hadley Wickham
+  BookTitle: "ggplot2: elegant graphics for data analysis"
+  Publisher: Springer New York
+  Year: 2009
+  ISBN: 978-0-387-98140-6
+  URL: http://had.co.nz/ggplot2/book
+Archive: CRAN
+Bug-Database: https://github.com/tidyverse/ggplot2/issues
+Repository: https://github.com/tidyverse/ggplot2.git
+Repository-Browse: https://github.com/tidyverse/ggplot2

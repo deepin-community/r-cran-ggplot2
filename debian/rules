@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem R
+
+override_dh_install:
+	dh_install
+	# fix broken relative dir in HTML index (see #912254)
+	find debian -name "index.html" -exec sed -i 's+../../../library/ggplot2/doc/++' \{\} \;
